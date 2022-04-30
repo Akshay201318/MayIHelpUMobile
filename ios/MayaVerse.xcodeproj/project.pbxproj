@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* MayaVerseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MayaVerseTests.m */; };
+		0856240ADF3E03DC38DD31AD /* libPods-MayaVerse-MayaVerseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E79971A8B6DB1E18DD433F /* libPods-MayaVerse-MayaVerseTests.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* MayaVerseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MayaVerseTests.m */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		833F2006FE004CFBA319C9F2 /* libPods-MayaVerse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE8F60935CC7F1EA8FB7E0E /* libPods-MayaVerse.a */; };
+		A421E17FFB564E339C467CC6 /* Gayathri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB109B43EAAC49FEBF094B69 /* Gayathri-Bold.ttf */; };
+		9FE546278E3F4E34B8CE6FAD /* Gayathri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC380A576D204C9381AD288F /* Gayathri-Regular.ttf */; };
+		87834E8B50CE46DFA28F9179 /* Gayathri-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6759A025C64E738450CC08 /* Gayathri-Thin.ttf */; };
+		1EC95B65DC664264BF96025B /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF631EA832354E43AA45762A /* Poppins-Black.ttf */; };
+		8B9A13E6B66C4B4FA3E1F012 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AC06DE41CBF484199BB3A69 /* Poppins-BlackItalic.ttf */; };
+		8044192284B44CE2970F4A20 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 252DC5705A8C463EA5E37255 /* Poppins-Bold.ttf */; };
+		49FE3BB9B2EA4B94AC8CCB4B /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 148F9FB57A9B4BF8A5F52799 /* Poppins-BoldItalic.ttf */; };
+		23A998A6B9B6483E8E6D0FF1 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6A4A47A10C34AC78F65FE62 /* Poppins-ExtraBold.ttf */; };
+		53C6662DC9064E9FB60CA499 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05E73F59701B47D6938F47B2 /* Poppins-ExtraBoldItalic.ttf */; };
+		F54038FBD7314283BCA07797 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74E181A337B4A5B80E73699 /* Poppins-ExtraLight.ttf */; };
+		E5E7A148CED644978A499DD0 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C02910A13F4B4F6ABB0C8B9D /* Poppins-ExtraLightItalic.ttf */; };
+		65F3F9B684A04104B26DE9F4 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7E79A5B6B4A481398834106 /* Poppins-Italic.ttf */; };
+		5A84E3E9FA344B75A1944768 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E03959F7EC749E9A305E072 /* Poppins-Light.ttf */; };
+		4668B3A4373141C8A076CE1D /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530D921E7B74487384873CAD /* Poppins-LightItalic.ttf */; };
+		4A6495805F304E7D9C4DAB61 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A17018C1BB6C47F7935D2B88 /* Poppins-Medium.ttf */; };
+		63DD582154D9492C875A8C7A /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D60AD7A4B8A54E969C6DE7DE /* Poppins-MediumItalic.ttf */; };
+		C593A80818134BF2B3DFFD76 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A6628F2EF884B3B8EE0B2D4 /* Poppins-Regular.ttf */; };
+		F476861A31AD43E0A377567E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 227152E770E54F129052136D /* Poppins-SemiBold.ttf */; };
+		FC43E3629A2E415996EFC787 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A54F3F2D157A4366AA09E25B /* Poppins-SemiBoldItalic.ttf */; };
+		FEAFB19D9BD54D82845429C4 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88502C249C8C4B6CA8646E35 /* Poppins-Thin.ttf */; };
+		FF7B72F8C45D46F1AB856C35 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83265C219C5A4C559A37C30F /* Poppins-ThinItalic.ttf */; };
+		67957F2575994B0E9A4CDC13 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 966CC4C940ED47F9B9AA0996 /* Roboto-Black.ttf */; };
+		C2D48F440C41427B98D933EE /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C54BF663DF824120B47880D2 /* Roboto-Bold.ttf */; };
+		EF575141E9E5429D90D6E576 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 840DE9C863A341449E6C4F2A /* Roboto-BoldItalic.ttf */; };
+		B62EA59C4D6F4A3399829552 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 851271A957C0400E824AD60A /* Roboto-Medium.ttf */; };
+		44376BA4630C4E599456E90A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5604C0AA08D445696780EB7 /* Roboto-Regular.ttf */; };
+		AFECFF007A1D4003AA299638 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14312A3DAB8E45D99E12C81D /* Roboto-Thin.ttf */; };
+		D6A432CA12A045F889A82A87 /* Sofia Pro Black Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCF58493889C4B78BA8E69A0 /* Sofia Pro Black Italic Az.otf */; };
+		489C46AE9A24494B8424570D /* Sofia Pro Bold Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79776C09A8264DF0B66E14FB /* Sofia Pro Bold Az.otf */; };
+		33709E86952C487EB57294CF /* Sofia Pro Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5302B571E8C9451BA6844C79 /* Sofia Pro Bold Italic Az.otf */; };
+		52B75336C8D0471AAB5072EA /* Sofia Pro ExtraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72618711208C45EDB382F273 /* Sofia Pro ExtraLight Az.otf */; };
+		520A301CBF834901A5DC32C4 /* Sofia Pro ExtraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA5DB744DC4048029599B0AF /* Sofia Pro ExtraLight Italic Az.otf */; };
+		5EC71B253F1E4A45A56D6665 /* Sofia Pro Light Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9884BF6FBC74E20ADF16F5D /* Sofia Pro Light Az.otf */; };
+		1E7FF695091241F0AE62BF73 /* Sofia Pro Light Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = D79719FF6FC14AD4BE82284D /* Sofia Pro Light Italic Az.otf */; };
+		D63BC219499548068204CCC5 /* Sofia Pro Medium Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCB671FE10404F2782372088 /* Sofia Pro Medium Az.otf */; };
+		AF2A67A575CD44E592F2A95A /* Sofia Pro Medium Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2C96C12AC7724E40B1E5E9A2 /* Sofia Pro Medium Italic Az.otf */; };
+		BC171FCACF4C43A6B05D30D3 /* Sofia Pro Regular Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F10BA89308A498D9DBE49A4 /* Sofia Pro Regular Az.otf */; };
+		2FF5749AB6874A15986EC0F3 /* Sofia Pro Regular Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4F09BE5304D77A2529AE0 /* Sofia Pro Regular Italic Az.otf */; };
+		81A1289433284C24BA580296 /* Sofia Pro Semi Bold Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1476912153C24311899BA5D4 /* Sofia Pro Semi Bold Italic Az.otf */; };
+		C11CE8685D9A4A71AD836158 /* Sofia Pro UltraLight Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C3B856B202A4406AD0A2414 /* Sofia Pro UltraLight Az.otf */; };
+		308B7DD14B684926BA3E8E7A /* Sofia Pro UltraLight Italic Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = D2ACCC84B9A54B04A8859A50 /* Sofia Pro UltraLight Italic Az.otf */; };
+		2D3EDC2CD9954596803CC15B /* Sofia-Pro-Black-Az.otf in Resources */ = {isa = PBXBuildFile; fileRef = 21CC604052334A25ADA6EA4C /* Sofia-Pro-Black-Az.otf */; };
+		FAF69704DC484101BF41229C /* Sofia-Pro-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C14D28D19DC47DB8F1C8402 /* Sofia-Pro-SemiBold.otf */; };
+		18FF52A1C16A49B38CF8ED3C /* Think Big.otf in Resources */ = {isa = PBXBuildFile; fileRef = E54F43DDC2F348CAB5D322C0 /* Think Big.otf */; };
+		7954CBD1D21D4217A8E822F8 /* Think Big.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA2BAFA203F46E6A474F444 /* Think Big.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MayaVerse;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "MayaVerse-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* MayaVerseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MayaVerseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MayaVerseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MayaVerseTests.m; sourceTree = "<group>"; };
+		03E79971A8B6DB1E18DD433F /* libPods-MayaVerse-MayaVerseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MayaVerse-MayaVerseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10ACE8560183868AA4F826E4 /* Pods-MayaVerse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaVerse.debug.xcconfig"; path = "Target Support Files/Pods-MayaVerse/Pods-MayaVerse.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MayaVerse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MayaVerse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MayaVerse/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MayaVerse/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MayaVerse/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MayaVerse/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MayaVerse/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MayaVerse-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MayaVerse-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MayaVerse-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MayaVerse-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9E780CE724C60CB827C553 /* Pods-MayaVerse-MayaVerseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaVerse-MayaVerseTests.debug.xcconfig"; path = "Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MayaVerse/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CE8F60935CC7F1EA8FB7E0E /* libPods-MayaVerse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MayaVerse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		968A20F8BD0245E30FBD22A5 /* Pods-MayaVerse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaVerse.release.xcconfig"; path = "Target Support Files/Pods-MayaVerse/Pods-MayaVerse.release.xcconfig"; sourceTree = "<group>"; };
+		A8A496B83138A0046DC1D49A /* Pods-MayaVerse-MayaVerseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MayaVerse-MayaVerseTests.release.xcconfig"; path = "Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		AB109B43EAAC49FEBF094B69 /* Gayathri-Bold.ttf */ = {isa = PBXFileReference; name = "Gayathri-Bold.ttf"; path = "../src/Assets/Fonts/Gayathri-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC380A576D204C9381AD288F /* Gayathri-Regular.ttf */ = {isa = PBXFileReference; name = "Gayathri-Regular.ttf"; path = "../src/Assets/Fonts/Gayathri-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF6759A025C64E738450CC08 /* Gayathri-Thin.ttf */ = {isa = PBXFileReference; name = "Gayathri-Thin.ttf"; path = "../src/Assets/Fonts/Gayathri-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DF631EA832354E43AA45762A /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../src/Assets/Fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8AC06DE41CBF484199BB3A69 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-BlackItalic.ttf"; path = "../src/Assets/Fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		252DC5705A8C463EA5E37255 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/Assets/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		148F9FB57A9B4BF8A5F52799 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-BoldItalic.ttf"; path = "../src/Assets/Fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6A4A47A10C34AC78F65FE62 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBold.ttf"; path = "../src/Assets/Fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05E73F59701B47D6938F47B2 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/Assets/Fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D74E181A337B4A5B80E73699 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLight.ttf"; path = "../src/Assets/Fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C02910A13F4B4F6ABB0C8B9D /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/Assets/Fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7E79A5B6B4A481398834106 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; name = "Poppins-Italic.ttf"; path = "../src/Assets/Fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E03959F7EC749E9A305E072 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/Assets/Fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		530D921E7B74487384873CAD /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-LightItalic.ttf"; path = "../src/Assets/Fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A17018C1BB6C47F7935D2B88 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/Assets/Fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D60AD7A4B8A54E969C6DE7DE /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-MediumItalic.ttf"; path = "../src/Assets/Fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A6628F2EF884B3B8EE0B2D4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/Assets/Fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		227152E770E54F129052136D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/Assets/Fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A54F3F2D157A4366AA09E25B /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/Assets/Fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		88502C249C8C4B6CA8646E35 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; name = "Poppins-Thin.ttf"; path = "../src/Assets/Fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83265C219C5A4C559A37C30F /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Poppins-ThinItalic.ttf"; path = "../src/Assets/Fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		966CC4C940ED47F9B9AA0996 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../src/Assets/Fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C54BF663DF824120B47880D2 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../src/Assets/Fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		840DE9C863A341449E6C4F2A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../src/Assets/Fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		851271A957C0400E824AD60A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../src/Assets/Fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5604C0AA08D445696780EB7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../src/Assets/Fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14312A3DAB8E45D99E12C81D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../src/Assets/Fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCF58493889C4B78BA8E69A0 /* Sofia Pro Black Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Black Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Black Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79776C09A8264DF0B66E14FB /* Sofia Pro Bold Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Bold Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5302B571E8C9451BA6844C79 /* Sofia Pro Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Bold Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		72618711208C45EDB382F273 /* Sofia Pro ExtraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Az.otf"; path = "../src/Assets/Fonts/Sofia Pro ExtraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA5DB744DC4048029599B0AF /* Sofia Pro ExtraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro ExtraLight Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro ExtraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9884BF6FBC74E20ADF16F5D /* Sofia Pro Light Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Light Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D79719FF6FC14AD4BE82284D /* Sofia Pro Light Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Light Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Light Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCB671FE10404F2782372088 /* Sofia Pro Medium Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Medium Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2C96C12AC7724E40B1E5E9A2 /* Sofia Pro Medium Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Medium Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Medium Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F10BA89308A498D9DBE49A4 /* Sofia Pro Regular Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Regular Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BD4F09BE5304D77A2529AE0 /* Sofia Pro Regular Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Regular Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Regular Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1476912153C24311899BA5D4 /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro Semi Bold Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C3B856B202A4406AD0A2414 /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Az.otf"; path = "../src/Assets/Fonts/Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2ACCC84B9A54B04A8859A50 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; name = "Sofia Pro UltraLight Italic Az.otf"; path = "../src/Assets/Fonts/Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		21CC604052334A25ADA6EA4C /* Sofia-Pro-Black-Az.otf */ = {isa = PBXFileReference; name = "Sofia-Pro-Black-Az.otf"; path = "../src/Assets/Fonts/Sofia-Pro-Black-Az.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C14D28D19DC47DB8F1C8402 /* Sofia-Pro-SemiBold.otf */ = {isa = PBXFileReference; name = "Sofia-Pro-SemiBold.otf"; path = "../src/Assets/Fonts/Sofia-Pro-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E54F43DDC2F348CAB5D322C0 /* Think Big.otf */ = {isa = PBXFileReference; name = "Think Big.otf"; path = "../src/Assets/Fonts/Think Big.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFA2BAFA203F46E6A474F444 /* Think Big.ttf */ = {isa = PBXFileReference; name = "Think Big.ttf"; path = "../src/Assets/Fonts/Think Big.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0856240ADF3E03DC38DD31AD /* libPods-MayaVerse-MayaVerseTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833F2006FE004CFBA319C9F2 /* libPods-MayaVerse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MayaVerseTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MayaVerseTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MayaVerseTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MayaVerse */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = MayaVerse;
+			sourceTree = "<group>";
+		};
+		18A06528071B6FFBBA9372E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10ACE8560183868AA4F826E4 /* Pods-MayaVerse.debug.xcconfig */,
+				968A20F8BD0245E30FBD22A5 /* Pods-MayaVerse.release.xcconfig */,
+				2F9E780CE724C60CB827C553 /* Pods-MayaVerse-MayaVerseTests.debug.xcconfig */,
+				A8A496B83138A0046DC1D49A /* Pods-MayaVerse-MayaVerseTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				8CE8F60935CC7F1EA8FB7E0E /* libPods-MayaVerse.a */,
+				03E79971A8B6DB1E18DD433F /* libPods-MayaVerse-MayaVerseTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MayaVerse */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MayaVerseTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				18A06528071B6FFBBA9372E2 /* Pods */,
+				8326826726BC4D8EB822E79B /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MayaVerse.app */,
+				00E356EE1AD99517003FC87E /* MayaVerseTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MayaVerse-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MayaVerse-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8326826726BC4D8EB822E79B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				AB109B43EAAC49FEBF094B69 /* Gayathri-Bold.ttf */,
+				BC380A576D204C9381AD288F /* Gayathri-Regular.ttf */,
+				CF6759A025C64E738450CC08 /* Gayathri-Thin.ttf */,
+				DF631EA832354E43AA45762A /* Poppins-Black.ttf */,
+				8AC06DE41CBF484199BB3A69 /* Poppins-BlackItalic.ttf */,
+				252DC5705A8C463EA5E37255 /* Poppins-Bold.ttf */,
+				148F9FB57A9B4BF8A5F52799 /* Poppins-BoldItalic.ttf */,
+				C6A4A47A10C34AC78F65FE62 /* Poppins-ExtraBold.ttf */,
+				05E73F59701B47D6938F47B2 /* Poppins-ExtraBoldItalic.ttf */,
+				D74E181A337B4A5B80E73699 /* Poppins-ExtraLight.ttf */,
+				C02910A13F4B4F6ABB0C8B9D /* Poppins-ExtraLightItalic.ttf */,
+				F7E79A5B6B4A481398834106 /* Poppins-Italic.ttf */,
+				5E03959F7EC749E9A305E072 /* Poppins-Light.ttf */,
+				530D921E7B74487384873CAD /* Poppins-LightItalic.ttf */,
+				A17018C1BB6C47F7935D2B88 /* Poppins-Medium.ttf */,
+				D60AD7A4B8A54E969C6DE7DE /* Poppins-MediumItalic.ttf */,
+				0A6628F2EF884B3B8EE0B2D4 /* Poppins-Regular.ttf */,
+				227152E770E54F129052136D /* Poppins-SemiBold.ttf */,
+				A54F3F2D157A4366AA09E25B /* Poppins-SemiBoldItalic.ttf */,
+				88502C249C8C4B6CA8646E35 /* Poppins-Thin.ttf */,
+				83265C219C5A4C559A37C30F /* Poppins-ThinItalic.ttf */,
+				966CC4C940ED47F9B9AA0996 /* Roboto-Black.ttf */,
+				C54BF663DF824120B47880D2 /* Roboto-Bold.ttf */,
+				840DE9C863A341449E6C4F2A /* Roboto-BoldItalic.ttf */,
+				851271A957C0400E824AD60A /* Roboto-Medium.ttf */,
+				E5604C0AA08D445696780EB7 /* Roboto-Regular.ttf */,
+				14312A3DAB8E45D99E12C81D /* Roboto-Thin.ttf */,
+				BCF58493889C4B78BA8E69A0 /* Sofia Pro Black Italic Az.otf */,
+				79776C09A8264DF0B66E14FB /* Sofia Pro Bold Az.otf */,
+				5302B571E8C9451BA6844C79 /* Sofia Pro Bold Italic Az.otf */,
+				72618711208C45EDB382F273 /* Sofia Pro ExtraLight Az.otf */,
+				AA5DB744DC4048029599B0AF /* Sofia Pro ExtraLight Italic Az.otf */,
+				F9884BF6FBC74E20ADF16F5D /* Sofia Pro Light Az.otf */,
+				D79719FF6FC14AD4BE82284D /* Sofia Pro Light Italic Az.otf */,
+				FCB671FE10404F2782372088 /* Sofia Pro Medium Az.otf */,
+				2C96C12AC7724E40B1E5E9A2 /* Sofia Pro Medium Italic Az.otf */,
+				6F10BA89308A498D9DBE49A4 /* Sofia Pro Regular Az.otf */,
+				9BD4F09BE5304D77A2529AE0 /* Sofia Pro Regular Italic Az.otf */,
+				1476912153C24311899BA5D4 /* Sofia Pro Semi Bold Italic Az.otf */,
+				4C3B856B202A4406AD0A2414 /* Sofia Pro UltraLight Az.otf */,
+				D2ACCC84B9A54B04A8859A50 /* Sofia Pro UltraLight Italic Az.otf */,
+				21CC604052334A25ADA6EA4C /* Sofia-Pro-Black-Az.otf */,
+				4C14D28D19DC47DB8F1C8402 /* Sofia-Pro-SemiBold.otf */,
+				E54F43DDC2F348CAB5D322C0 /* Think Big.otf */,
+				CFA2BAFA203F46E6A474F444 /* Think Big.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MayaVerseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MayaVerseTests" */;
+			buildPhases = (
+				AD5C4E7E5F3A47C5E4DBBCF0 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F372D2FA8123F2010D7AC16D /* [CP] Copy Pods Resources */,
+				7BB9084BA41A8AF7702CE057 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MayaVerseTests;
+			productName = MayaVerseTests;
+			productReference = 00E356EE1AD99517003FC87E /* MayaVerseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MayaVerse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MayaVerse" */;
+			buildPhases = (
+				4EC448C7DE7012241E76E38D /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				4154A44C19B9C3D1A50BAB06 /* [CP] Copy Pods Resources */,
+				05F85629541516737FF642BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayaVerse;
+			productName = MayaVerse;
+			productReference = 13B07F961A680F5B00A75B9A /* MayaVerse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* MayaVerse-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MayaVerse-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MayaVerse-tvOS";
+			productName = "MayaVerse-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MayaVerse-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* MayaVerse-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MayaVerse-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "MayaVerse-tvOSTests";
+			productName = "MayaVerse-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MayaVerse-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MayaVerse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MayaVerse */,
+				00E356ED1AD99517003FC87E /* MayaVerseTests */,
+				2D02E47A1E0B4A5D006451C7 /* MayaVerse-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MayaVerse-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A421E17FFB564E339C467CC6 /* Gayathri-Bold.ttf in Resources */,
+				9FE546278E3F4E34B8CE6FAD /* Gayathri-Regular.ttf in Resources */,
+				87834E8B50CE46DFA28F9179 /* Gayathri-Thin.ttf in Resources */,
+				1EC95B65DC664264BF96025B /* Poppins-Black.ttf in Resources */,
+				8B9A13E6B66C4B4FA3E1F012 /* Poppins-BlackItalic.ttf in Resources */,
+				8044192284B44CE2970F4A20 /* Poppins-Bold.ttf in Resources */,
+				49FE3BB9B2EA4B94AC8CCB4B /* Poppins-BoldItalic.ttf in Resources */,
+				23A998A6B9B6483E8E6D0FF1 /* Poppins-ExtraBold.ttf in Resources */,
+				53C6662DC9064E9FB60CA499 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				F54038FBD7314283BCA07797 /* Poppins-ExtraLight.ttf in Resources */,
+				E5E7A148CED644978A499DD0 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				65F3F9B684A04104B26DE9F4 /* Poppins-Italic.ttf in Resources */,
+				5A84E3E9FA344B75A1944768 /* Poppins-Light.ttf in Resources */,
+				4668B3A4373141C8A076CE1D /* Poppins-LightItalic.ttf in Resources */,
+				4A6495805F304E7D9C4DAB61 /* Poppins-Medium.ttf in Resources */,
+				63DD582154D9492C875A8C7A /* Poppins-MediumItalic.ttf in Resources */,
+				C593A80818134BF2B3DFFD76 /* Poppins-Regular.ttf in Resources */,
+				F476861A31AD43E0A377567E /* Poppins-SemiBold.ttf in Resources */,
+				FC43E3629A2E415996EFC787 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				FEAFB19D9BD54D82845429C4 /* Poppins-Thin.ttf in Resources */,
+				FF7B72F8C45D46F1AB856C35 /* Poppins-ThinItalic.ttf in Resources */,
+				67957F2575994B0E9A4CDC13 /* Roboto-Black.ttf in Resources */,
+				C2D48F440C41427B98D933EE /* Roboto-Bold.ttf in Resources */,
+				EF575141E9E5429D90D6E576 /* Roboto-BoldItalic.ttf in Resources */,
+				B62EA59C4D6F4A3399829552 /* Roboto-Medium.ttf in Resources */,
+				44376BA4630C4E599456E90A /* Roboto-Regular.ttf in Resources */,
+				AFECFF007A1D4003AA299638 /* Roboto-Thin.ttf in Resources */,
+				D6A432CA12A045F889A82A87 /* Sofia Pro Black Italic Az.otf in Resources */,
+				489C46AE9A24494B8424570D /* Sofia Pro Bold Az.otf in Resources */,
+				33709E86952C487EB57294CF /* Sofia Pro Bold Italic Az.otf in Resources */,
+				52B75336C8D0471AAB5072EA /* Sofia Pro ExtraLight Az.otf in Resources */,
+				520A301CBF834901A5DC32C4 /* Sofia Pro ExtraLight Italic Az.otf in Resources */,
+				5EC71B253F1E4A45A56D6665 /* Sofia Pro Light Az.otf in Resources */,
+				1E7FF695091241F0AE62BF73 /* Sofia Pro Light Italic Az.otf in Resources */,
+				D63BC219499548068204CCC5 /* Sofia Pro Medium Az.otf in Resources */,
+				AF2A67A575CD44E592F2A95A /* Sofia Pro Medium Italic Az.otf in Resources */,
+				BC171FCACF4C43A6B05D30D3 /* Sofia Pro Regular Az.otf in Resources */,
+				2FF5749AB6874A15986EC0F3 /* Sofia Pro Regular Italic Az.otf in Resources */,
+				81A1289433284C24BA580296 /* Sofia Pro Semi Bold Italic Az.otf in Resources */,
+				C11CE8685D9A4A71AD836158 /* Sofia Pro UltraLight Az.otf in Resources */,
+				308B7DD14B684926BA3E8E7A /* Sofia Pro UltraLight Italic Az.otf in Resources */,
+				2D3EDC2CD9954596803CC15B /* Sofia-Pro-Black-Az.otf in Resources */,
+				FAF69704DC484101BF41229C /* Sofia-Pro-SemiBold.otf in Resources */,
+				18FF52A1C16A49B38CF8ED3C /* Think Big.otf in Resources */,
+				7954CBD1D21D4217A8E822F8 /* Think Big.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		05F85629541516737FF642BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayaVerse/Pods-MayaVerse-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayaVerse/Pods-MayaVerse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		4154A44C19B9C3D1A50BAB06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayaVerse/Pods-MayaVerse-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayaVerse/Pods-MayaVerse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC448C7DE7012241E76E38D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayaVerse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BB9084BA41A8AF7702CE057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Flipper-DoubleConversion/double-conversion.framework/double-conversion",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/double-conversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5C4E7E5F3A47C5E4DBBCF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MayaVerse-MayaVerseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F372D2FA8123F2010D7AC16D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MayaVerse-MayaVerseTests/Pods-MayaVerse-MayaVerseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MayaVerseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* MayaVerseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MayaVerse */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* MayaVerse-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F9E780CE724C60CB827C553 /* Pods-MayaVerse-MayaVerseTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MayaVerseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaVerse.app/MayaVerse";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A496B83138A0046DC1D49A /* Pods-MayaVerse-MayaVerseTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = MayaVerseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaVerse.app/MayaVerse";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10ACE8560183868AA4F826E4 /* Pods-MayaVerse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MayaVerse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MayaVerse;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968A20F8BD0245E30FBD22A5 /* Pods-MayaVerse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MayaVerse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MayaVerse;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MayaVerse-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MayaVerse-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MayaVerse-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MayaVerse-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MayaVerse-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MayaVerse-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaVerse-tvOS.app/MayaVerse-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "MayaVerse-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.MayaVerse-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MayaVerse-tvOS.app/MayaVerse-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MayaVerseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MayaVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MayaVerse-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MayaVerse-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MayaVerse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

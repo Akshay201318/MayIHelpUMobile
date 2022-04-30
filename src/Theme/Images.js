@@ -1,0 +1,56 @@
+/**
+ *
+ * @param Theme can be spread like {Colors, NavigationColors, Gutters, Layout, Common, ...args}
+ * @return {*}
+ */
+export default function () {
+  return {
+    logo: require('@/Assets/Images/TOM.png'),
+    addCam: require('@/Assets/Images/addCam.png'),
+    addPost: require('@/Assets/Images/addPost.png'),
+    groups: require('@/Assets/Images/groups.png'),
+    menu: require('@/Assets/Images/menu.png'),
+    notification: require('@/Assets/Images/notification.png'),
+    backIcon: require('@/Assets/Images/leftCircle.png'),
+    xCircle: require('@/Assets/Images/xCircle.png'),
+    intro: require('@/Assets/Images/intro/Intro.png'),
+    menu: require('@/Assets/Images/menu/menu.png'),
+    select: require('@/Assets/Images/select.png'),
+    next: require('@/Assets/Images/nextIcon.png'),
+    dummyUser: require('@/Assets/Images/dummyUser.png'),
+    dummyUser2: require('@/Assets/Images/dummyUser2.png'),
+    dummyUser3: require('@/Assets/Images/dummyUser3.png'),
+    dummyPost: require('@/Assets/Images/dummyPost.png'),
+    thumbUp: require('@/Assets/Images/thumbUp/thumbUp.png'),
+    campaign: require('@/Assets/Images/campaign.png'),
+    campaign2: require('@/Assets/Images/campaign2.png'),
+    likeIcon: require('@/Assets/Images/likeIcon/likeIcon.png'),
+    likedIcon: require('@/Assets/Images/likedIcon/likedIcon.png'),
+    sendIcon: require('@/Assets/Images/sendIcon/sendIcon.png'),
+    dotIcon: require('@/Assets/Images/dotIcon/dotIcon.png'),
+    search: require('@/Assets/Images/search/search.png'),
+    dotCircleIcon: require('@/Assets/Images/dotCircleIcon/dotCircleIcon.png'),
+    flagIcon: require('@/Assets/Images/flagIcon/flagIcon.png'),
+    backIcon: require('@/Assets/Images/backIcon/backIcon.png'),
+    notificationIcon: require('@/Assets/Images/notificationIcon/notificationIcon.png'),
+    notificationActiveIcon: require('@/Assets/Images/notificationActiveIcon/notificationActiveIcon.png'),
+    groupIcon: require('@/Assets/Images/groupIcon/groupIcon.png'),
+    groupIcon2: require('@/Assets/Images/groupIcon2/groupIcon2.png'),
+    addPostIcon: require('@/Assets/Images/addPostIcon/addPostIcon.png'),
+    cameraIcon: require('@/Assets/Images/cameraIcon/cameraIcon.png'),
+    calendarIcon: require('@/Assets/Images/calendarIcon/calendarIcon.png'),
+    sparkleIcon: require('@/Assets/Images/sparkleIcon/sparkleIcon.png'),
+    rightIcon: require('@/Assets/Images/rightIcon/rightIcon.png'),
+    galleryIcon: require('@/Assets/Images/galleryIcon/galleryIcon.png'),
+    linkIcon: require('@/Assets/Images/linkIcon/linkIcon.png'),
+    arrowDown: require('@/Assets/Images/arrowDown/arrowDown.png'),
+    selectedIcon: require('@/Assets/Images/selectedIcon/selectedIcon.png'),
+    homeIndicator: require('@/Assets/Images/homeIndicator/homeIndicator.png'),
+    circleUp: require('@/Assets/Images/circleUp/circleUp.png'),
+    crossIcon: require('@/Assets/Images/crossIcon/crossIcon.png'),
+    doctorIcon: require('@/Assets/Images/userTypeIcon/doctorIcon.png'),
+    newtorkError: require('@/Assets/Images/newtorkError.png'),
+    notLiked: require('@/Assets/Images/likedIcon/notLiked.png'),
+  }
+
+}
