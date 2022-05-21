@@ -1,5 +1,5 @@
 export default {
-  welcome: 'Welcome to React Native MayaVerse by TheCodingMachine',
+  welcome: 'Welcome to React Native MayIHelpU by TheCodingMachine',
   actions: {
     continue: 'Continue',
   },

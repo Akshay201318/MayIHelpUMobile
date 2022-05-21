@@ -9,8 +9,8 @@ export default function Loader({
   label = '',
   opacity = 1,
 }) {
-    const isLoading = useSelector(state => state.loader.isLoading);
-
+  const isLoading = useSelector(state => state.loader.isLoading);
+  console.log("loading>>>>>>>>>>", isLoading)
   if (!isLoading) return null;
   return (
     <View style={{ ...styles.loaderContainer, opacity }}>
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignSelf: 'center',
     zIndex: 1001,
-    height: 100,
-    width: 100,
+    height: 150,
+    width: 150,
   },
 });

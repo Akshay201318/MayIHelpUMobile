@@ -5,7 +5,8 @@
  */
 export default function () {
   return {
-    logo: require('@/Assets/Images/TOM.png'),
+    logo: require('@/Assets/Images/ic_launcher.png'),
+    appNameLogo: require('@/Assets/Images/appNameLogo.png'),
     addCam: require('@/Assets/Images/addCam.png'),
     addPost: require('@/Assets/Images/addPost.png'),
     groups: require('@/Assets/Images/groups.png'),
@@ -51,6 +52,11 @@ export default function () {
     doctorIcon: require('@/Assets/Images/userTypeIcon/doctorIcon.png'),
     newtorkError: require('@/Assets/Images/newtorkError.png'),
     notLiked: require('@/Assets/Images/likedIcon/notLiked.png'),
+    location: require('@/Assets/Images/location.png'),
+    google: require('@/Assets/Images/google.png'),
+    facebook: require('@/Assets/Images/facebook.png'),
+    hideIcon: require('@/Assets/Images/hide.png'),
+    viewIcon: require('@/Assets/Images/view.png'),
   }
 
 }

@@ -4,7 +4,7 @@ const slice = createSlice({
   name: 'loader',
   initialState: { isLoading: false },
   reducers: {
-      setIsLoading: (state, { payload: { isLoading } }) => {
+    setIsLoading: (state, { payload: { isLoading } }) => {
           state.isLoading = isLoading;
     },
   },

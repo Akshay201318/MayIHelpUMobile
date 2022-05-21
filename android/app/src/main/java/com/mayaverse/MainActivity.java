@@ -1,4 +1,4 @@
-package com.mayaverse;
+package com.mayihelpu;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -13,7 +13,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "MayaVerse";
+    return "mayihelpu";
   }
 
   // for react-native-screens

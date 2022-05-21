@@ -6,6 +6,7 @@ import { store, persistor } from '@/Store'
 import ApplicationNavigator from '@/Navigators/Application'
 import './Translations'
 import Loader from './Components/Loader/Loader'
+import FlashMessage from 'react-native-flash-message'
 
 const App = () => (
   <Provider store={store}>
@@ -18,7 +19,8 @@ const App = () => (
      */}
     <PersistGate loading={null} persistor={persistor}>
       <ApplicationNavigator />
-      <Loader indicatorColor={"#2A96B6"}/>
+      <Loader indicatorColor={"#2A96B6"} />
+      <FlashMessage position="top" />
     </PersistGate>
   </Provider>
 )

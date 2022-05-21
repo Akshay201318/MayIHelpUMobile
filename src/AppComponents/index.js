@@ -10,7 +10,7 @@ import {
   Pressable,
   TouchableHighlight,
   TouchableWithoutFeedback,
-  TextInput,
+  TextInput as CustomeTextInput,
   SafeAreaView,
   ImageBackground,
   Dimensions,
@@ -19,10 +19,16 @@ import {
   FlatList,
   ActivityIndicator,
   Linking,
+  Switch,
 } from 'react-native'
 
 const Image = props => {
   return <CstImage resizeMode={'contain'} {...props} />
+}
+
+const TextInput = props => {
+  const { style = {} } = props;
+  return <CustomeTextInput {...props} style={{...style, flex: 1}}/>
 }
 export {
   Text,
@@ -44,4 +50,5 @@ export {
   FlatList,
   ActivityIndicator,
   Linking,
+  Switch,
 }

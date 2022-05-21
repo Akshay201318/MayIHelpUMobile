@@ -5,9 +5,7 @@ const slice = createSlice({
   initialState: { token: null, user: null },
   reducers: {
     setToken: (state, { payload: { token } }) => {
-      if (!state.token) {
         state.token = token
-      }
     },
     setAuthenticatedUser: (state, { payload: { user } }) => {
       state.user = user;

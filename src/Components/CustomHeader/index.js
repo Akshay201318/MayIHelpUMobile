@@ -87,18 +87,7 @@ const CustomHeader = props => {
                 />
               </TouchableOpacity>
             )}
-            {title != '' && (
-              <View style={{ paddingLeft: s(15) }}>
-                <Text
-                  style={{
-                    ...Style.headerTitle,
-                    ...titleStyle,
-                  }}
-                >
-                  {title}
-                </Text>
-              </View>
-            )}
+            <Image source={Images.appNameLogo} style={{ height: 50, width: 140}}/>
           </View>
           <View style={Style.rightIconContainer}>
             {groupFunc ? (
@@ -160,6 +149,7 @@ const Style = StyleSheet.create({
     paddingRight: s(5),
     paddingVertical: s(10),
     backgroundColor: Colors.backGroundColor.white,
+    backgroundColor: "#d4fffa",
   },
   rightIconContainer: {
     flexDirection: 'row',

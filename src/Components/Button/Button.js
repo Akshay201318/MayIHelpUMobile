@@ -10,19 +10,19 @@ const Button = ({
   rightIcon,
   label = 'Select groups',
   onClick = () => {},
-  dashStyle = {},
+  buttonStyle = {},
 }) => {
   return (
     <Pressable style={{ ...styles.container }} onPress={onClick}>
       {({ pressed }) => (
         <>
-          <View
+          {/* <View
             style={
               type == 'curved'
                 ? {
                     ...styles.curvedStyle,
                     borderColor: '#002B38',
-                    borderStyle: 'dashed',
+                    // borderStyle: 'dashed',
                     position: 'absolute',
                     right: -6,
                     top: 6,
@@ -32,7 +32,7 @@ const Button = ({
                 : {
                     ...styles.squareStyle,
                     borderColor: '#002B38',
-                    borderStyle: 'dashed',
+                    // borderStyle: 'dashed',
                     position: 'absolute',
                     right: -6,
                     top: 6,
@@ -40,17 +40,19 @@ const Button = ({
                     ...dashStyle,
                   }
             }
-          ></View>
+          ></View> */}
           <View
             style={
               type == 'curved'
                 ? {
                     ...styles.curvedStyle,
-                    ...(pressed ? { backgroundColor: '#cce0e6' } : {}),
+                  ...(pressed ? { backgroundColor: '#cce0e6' } : {}),
+                    ...buttonStyle
                   }
                 : {
                     ...styles.squareStyle,
-                    ...(pressed ? { backgroundColor: '#cce0e6' } : {}),
+                  ...(pressed ? { backgroundColor: '#cce0e6' } : {}),
+                    ...buttonStyle
                   }
             }
           >

@@ -10,6 +10,7 @@ import { h14_SemiBold } from '@/Theme/Fonts'
 import { useTheme } from '@/Hooks'
 import { SafeAreaView, View, Image, Text } from '@/AppComponents'
 import Gallery from '@/Components/Gallery'
+import Button from '@/Components/Button/Button'
 
 const Drawer = createDrawerNavigator()
 const Stack = createStackNavigator()
@@ -20,7 +21,7 @@ const MainNavigator = () => {
   const HomeStack = useCallback(() => {
     return (
       <Stack.Navigator
-        initialRouteName="Initial"
+        initialRouteName="Login"
         screenOptions={{ headerShown: false }}
       >
         <Stack.Screen name="Initial" component={Home} />
@@ -53,8 +54,8 @@ const MainNavigator = () => {
       headerShown: false,
     },
     // {
-    //   name: 'Feeds',
-    //   component: FeedStack,
+    //   name: 'Log out',
+    //   component: Button({}),
     //   icon: Images.menu,
     //   headerShown: false,
     // },
@@ -68,19 +69,17 @@ const MainNavigator = () => {
   ]
 
   const drawer = props => (
-    <SafeAreaView style={{ flex: 1, flexDirection: 'column' }}>
+    <SafeAreaView style={{ flex: 1, flexDirection: 'column', backgroundColor:"#d4fffa" }}>
       <View
         style={{
-          height: 79,
+          height: 60,
           flexDirection: 'row',
           alignItems: 'center',
-          justifyContent: 'flex-start',
+          justifyContent: 'center',
           width: 150,
         }}
       >
-        <Text numberOfLines={1} style={{ color: '#000' }}>
-          Home
-        </Text>
+        <Image source={Images.appNameLogo} style={{ height: 80, width: 140}}/>
       </View>
       <DrawerContentScrollView
         {...props}
@@ -103,13 +102,12 @@ const MainNavigator = () => {
         drawerType: 'front',
         drawerStyle: {
           backgroundColor: '#fff',
-          borderTopRightRadius: 30,
-          borderBottomRightRadius: 30,
+          borderTopRightRadius: 10,
+          borderBottomRightRadius: 10,
           width: 225,
         },
         drawerItemStyle: {
           height: 50,
-          marginVertical: 2,
           justifyContent: 'center',
         },
         drawerLabelStyle: {

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "MayaVerse.app"
-               BlueprintName = "MayaVerse"
-               ReferencedContainer = "container:MayaVerse.xcodeproj">
+               BuildableName = "MayIHelpU.app"
+               BlueprintName = "MayIHelpU"
+               ReferencedContainer = "container:MayIHelpU.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "MayaVerseTests.xctest"
-               BlueprintName = "MayaVerseTests"
-               ReferencedContainer = "container:MayaVerse.xcodeproj">
+               BuildableName = "MayIHelpUTests.xctest"
+               BlueprintName = "MayIHelpUTests"
+               ReferencedContainer = "container:MayIHelpU.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MayaVerse.app"
-            BlueprintName = "MayaVerse"
-            ReferencedContainer = "container:MayaVerse.xcodeproj">
+            BuildableName = "MayIHelpU.app"
+            BlueprintName = "MayIHelpU"
+            ReferencedContainer = "container:MayIHelpU.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "MayaVerse.app"
-            BlueprintName = "MayaVerse"
-            ReferencedContainer = "container:MayaVerse.xcodeproj">
+            BuildableName = "MayIHelpU.app"
+            BlueprintName = "MayIHelpU"
+            ReferencedContainer = "container:MayIHelpU.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -39,7 +39,7 @@ local.properties
 # pod files
 /ios/Pods/
 ios/Podfile.lock
-ios/MayaVerse.xcworkspace/
+ios/MayIHelpU.xcworkspace/
 
 #package lock
 package-lock.json
